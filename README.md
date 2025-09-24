@@ -43,14 +43,11 @@ Hours and nights spent on the terminal, willingness to improve.
 I made a [recording for setting this up on an Ubuntu system](https://www.youtube.com/watch?v=X8x-gUwucBU&list=PL52YFor3VtLegIRc3uDl9koGP-Fu_YGru)
 
 ```bash
-git clone https://github.com/2kabhishek/dots2k
-cd dots2k
-
 # Menu based interactive setup, recommended for beginners
-./setup.sh
+git clone --branch dev https://github.com/VVytai/dots2k.git && cd dots2k && ./setup.sh
 
 # Setup everything unattended
-./setup.sh -a
+git clone --branch dev https://github.com/VVytai/dots2k.git && cd dots2k && sudo ./setup.sh -a
 ```
 
 > If you plan to use this without using the setup script, make sure to install the recommended packages in the `setup.sh` script.
