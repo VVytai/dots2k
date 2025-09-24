@@ -1,8 +1,3 @@
-[user]
-    email = iam2kabhishek@gmail.com
-    name = Abhishek Keshri
-    signingkey = ~/.ssh/id_ed25519.pub
-
 [alias]
     a = add
     # Ignores whitespace changes, code movement, and renames
