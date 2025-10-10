@@ -47,7 +47,7 @@ I made a [recording for setting this up on an Ubuntu system](https://www.youtube
 git clone --branch dev https://github.com/VVytai/dots2k.git && cd dots2k && ./setup.sh
 
 # Setup everything unattended
-git clone --branch dev https://github.com/VVytai/dots2k.git && cd dots2k && sudo ./setup.sh -a
+git clone --branch dev https://github.com/VVytai/dots2k.git && cd dots2k && ./setup.sh -a
 ```
 
 > If you plan to use this without using the setup script, make sure to install the recommended packages in the `setup.sh` script.
