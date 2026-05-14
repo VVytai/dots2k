@@ -29,6 +29,7 @@ alias lt="ezt"
 alias ldir="ls -d */"
 alias ln="ln -sfnv"
 alias logout="sudo pkill -u \$USER"
+alias long='find . -type f -exec wc -l {} + | sort -rn | head -10'
 alias ls='ls --color=auto'
 alias lsa="lsd -A --group-dirs first --classify"
 alias lso="lsd -A --group-dirs first --classify --recursive --depth=2"
